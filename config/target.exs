@@ -30,19 +30,18 @@ config :nerves_firmware_ssh,
 # Only enable this for prod if you understand the risks.
 node_name = if Mix.env() != :prod, do: "grizzly_quick_start"
 
-config :nerves_init_gadget,
-  ifname: "eth0",
-  address_method: :dhcp,
-  mdns_domain: "nerves.local",
-  node_name: node_name,
-  node_host: :mdns_domain
+config :vintage_net,
+  regulatory_domain: "US",
+  config: [
+    {"eth0", %{type: VintageNet.Technology.Ethernet, ipv4: %{method: :dhcp}}}
+  ]
+
+config :grizzly,
+  serial_port: "/dev/ttyACM0",
+  pidof_bin: "/srv/erlang/lib/busybox-0.1.3/priv/bin/pidof"
 
 # Import target specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 # Uncomment to use target specific configurations
-#
-config :grizzly,
-  serial_port: "/dev/ttyACM0",
-  pidof_bin: "/srv/erlang/lib/busybox-0.1.3/priv/bin/pidof"
 
 # import_config "#{Mix.target()}.exs"

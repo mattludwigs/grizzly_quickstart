@@ -57,6 +57,17 @@ Start `etcher`, point it to the zip file, and follow the prompts:
 
 ![etcher screenshot](assets/etcher.png)
 
+
+## Connecting to the board
+
+You can either connect to an HDMI monitor and keyboard, or you can use Ethernet with `ssh`.
+
+
+```bash
+~ ssh nerves.local
+
+```
+
 ## Going further
 
 After getting all set up see [Grizzly's usage](https://github.com/smartrent/grizzly#usage) documentation.

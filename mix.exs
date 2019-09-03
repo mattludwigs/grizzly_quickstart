@@ -30,6 +30,7 @@ defmodule GrizzlyQuickStart.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {GrizzlyQuickStart.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
@@ -45,12 +46,15 @@ defmodule GrizzlyQuickStart.MixProject do
 
       # Dependencies for all targets except :host
       {:nerves_runtime, "~> 0.6", targets: @all_targets},
-      {:nerves_init_gadget, "~> 0.4", targets: @all_targets},
       {:busybox, "~> 0.1.3", targets: @all_targets},
       {:grizzly, path: "../grizzly", targets: @all_targets},
+      {:vintage_net, "~> 0.5", targets: @all_targets},
+      {:mdns_lite, "~> 0.3", targets: @all_targets},
+      {:nerves_time, "~> 0.2", targets: @all_targets},
+      {:nerves_firmware_ssh, "~> 0.2", targets: @all_targets},
 
       # Dependencies for specific targets
-      {:nerves_system_rpi3, "~> 1.8", runtime: false, targets: :rpi3},
+      {:nerves_system_rpi3, "~> 1.8", runtime: false, targets: :rpi3}
     ]
   end
 
