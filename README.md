@@ -20,7 +20,7 @@ For this tutorial, you'll also need
 ## Downloading the Firmware
 
 Find the appropriate firmware or zip file
-[here](https://github.com/elixir-circuits/circuits_quickstart/releases). If
+[here](https://github.com/mattludwigs/girzzly_quickstart/releases). If
 you're using `fwup` to write images to MicroSD cards, download the `.fw`
 extension and if you're using `etcher`, get the `zip` file.
 
@@ -35,7 +35,7 @@ card*. Make sure you're OK with that.
 ### `fwup`
 
 ```console
-λ ~/fwup circuits_quickstart_rpi0.fw
+λ ~/fwup grizzly_quick_start.fw
 Use 15.84 GB memory card found at /dev/rdisk2? [y/N] y
 ```
 
