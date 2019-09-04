@@ -2,7 +2,7 @@ defmodule GrizzlyQuickStart.MixProject do
   use Mix.Project
 
   @app :grizzly_quick_start
-  @version "0.1.0"
+  @version "1.0.0"
   @all_targets [:rpi3]
 
   def project do
