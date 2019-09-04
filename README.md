@@ -63,7 +63,7 @@ Start `etcher`, point it to the zip file, and follow the prompts:
 You can either connect to an HDMI monitor and keyboard, or you can use Ethernet with `ssh`.
 
 
-```bash
+```
 $ ssh nerves.local
 Interactive Elixir (1.9.0) - press Ctrl+C to exit (type h() ENTER for help)
 Toolshed imported. Run h(Toolshed) for more info
