@@ -27,7 +27,7 @@ config :shoehorn,
 config :logger, backends: [RingLogger]
 
 config :mdns_lite,
-  host: :hostname,
+  host: "nerves",
   ttl: 120,
   services: [
     %{

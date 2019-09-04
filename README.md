@@ -64,12 +64,36 @@ You can either connect to an HDMI monitor and keyboard, or you can use Ethernet 
 
 
 ```bash
-~ ssh nerves.local
+$ ssh nerves.local
+Interactive Elixir (1.9.0) - press Ctrl+C to exit (type h() ENTER for help)
+Toolshed imported. Run h(Toolshed) for more info
 
+   MMWKo;;:;:dKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWMMMMMMMMMM
+   MKl'.  ....'dXMMMMMMMMWNKXWMMMMMMMMMMMMMMMMMMWk:c0MMMMMMMMMM
+   O,   .,cdkd::0MMMMWWWWWXKXWWWWWWWWWMMMWWWWWWMN: .xMMWWMMMMWM
+   :  .'lXMWWWWWWMXd:;,,oKd;lK0c;;;;;;lKOc;;;;;o0c .xNd;c0MXo;l
+   ;  .'lXMKoc::cOk. .:lk0; .kKocc'  .lX0oc'  .o0: .xWd. :Kd. l
+   d.....cxxc.  .kk. ;KMMX; .kMXd:. ,kWMMXo..;OWN: .xMXc .;' ,K
+   Nx,.....    'xNO. ;XMMX; .kK:   .lxkX0;  'oxOKc  :KWK;   .kW
+   MWXxc;'....:0MM0:.lXMMXl.;Ox'......;kd'.....:00:.'xNNk. .xWM
+   MMMMMWNXXXXNWMMWNXNMMMMNXNWWXXXXXXXNWWXXXXXXNWMWNX0l,. .xNMM
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKl'':OWMMM
+
+                      Grizzly Quickstart
+
+RingLogger is collecting log messages from Elixir and Linux. To see the
+messages, either attach the current IEx session to the logger:
+
+  RingLogger.attach
+
+or print the next messages in the log:
+
+  RingLogger.next
+
+iex(1)>
 ```
 
 ## Going further
 
 After getting all set up see [Grizzly's usage](https://github.com/smartrent/grizzly#usage) documentation.
-
 

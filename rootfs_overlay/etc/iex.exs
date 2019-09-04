@@ -20,7 +20,7 @@ if RingLogger in Application.get_env(:logger, :backends, []) do
     """,
     IO.ANSI.reset(),
     """
-                        Grizzly Quickstart
+                          Grizzly Quickstart
 
     RingLogger is collecting log messages from Elixir and Linux. To see the
     messages, either attach the current IEx session to the logger:
