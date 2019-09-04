@@ -62,9 +62,14 @@ Start `etcher`, point it to the zip file, and follow the prompts:
 
 You can either connect to an HDMI monitor and keyboard, or you can use Ethernet with `ssh`.
 
+ssh username is `grizzly` and password is `grizzly`.
 
 ```
-$ ssh nerves.local
+$ ssh grizzly@nerves.local
+SSH server
+Enter password for "grizzly"
+password:
+
 Interactive Elixir (1.9.0) - press Ctrl+C to exit (type h() ENTER for help)
 Toolshed imported. Run h(Toolshed) for more info
 
