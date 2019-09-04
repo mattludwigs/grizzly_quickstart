@@ -20,7 +20,7 @@ For this tutorial, you'll also need
 ## Downloading the Firmware
 
 Find the appropriate firmware or zip file
-[here](https://github.com/mattludwigs/girzzly_quickstart/releases). If
+[here](https://github.com/mattludwigs/grizzly_quickstart/releases). If
 you're using `fwup` to write images to MicroSD cards, download the `.fw`
 extension and if you're using `etcher`, get the `zip` file.
 
