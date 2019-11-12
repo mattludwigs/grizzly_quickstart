@@ -3,7 +3,7 @@
   "dns": {:hex, :dns, "2.1.2", "81c46d39f7934f0e73368355126e4266762cf227ba61d5889635d83b2d64a493", [:mix], [{:socket, "~> 0.3.13", [hex: :socket, repo: "hexpm", optional: false]}], "hexpm"},
   "elixir_make": {:hex, :elixir_make, "0.6.0", "38349f3e29aff4864352084fc736fa7fa0f2995a819a737554f7ebd28b85aaab", [:mix], [], "hexpm"},
   "gen_state_machine": {:hex, :gen_state_machine, "2.0.5", "9ac15ec6e66acac994cc442dcc2c6f9796cf380ec4b08267223014be1c728a95", [:mix], [], "hexpm"},
-  "grizzly": {:hex, :grizzly, "0.6.4", "a1b9c15b2cf30073bc881beb97ff2f083ffd5a438c70380068c1418b2ddd11b1", [:mix], [{:muontrap, "~> 0.4", [hex: :muontrap, repo: "hexpm", optional: false]}], "hexpm"},
+  "grizzly": {:hex, :grizzly, "0.6.6", "e05074a0bdf2d9f0398b186dc62a42c650ee0703e9f4515721a0373e3bb7e51f", [:mix], [{:muontrap, "~> 0.4", [hex: :muontrap, repo: "hexpm", optional: false]}], "hexpm"},
   "mdns_lite": {:hex, :mdns_lite, "0.4.2", "3f220172c3e9e16e1f1131997245b8b17454232ef789b1645961fcb4fa1427bf", [:mix], [{:dns, "~> 2.1", [hex: :dns, repo: "hexpm", optional: false]}], "hexpm"},
   "muontrap": {:hex, :muontrap, "0.5.0", "0b885a4095e990000d519441bccb8f037a9c4c35908720e7814a516a606be278", [:make, :mix], [{:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm"},
   "nerves": {:hex, :nerves, "1.5.1", "07079342db3a03d19694118a93f220359fbd94b6e174b98d1ea2709db9e81da9", [:mix], [{:distillery, "~> 2.1", [hex: :distillery, repo: "hexpm", optional: true]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: true]}], "hexpm"},
